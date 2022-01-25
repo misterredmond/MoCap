@@ -18,9 +18,9 @@ while uptime < 2:
 
 print("Working... Uptime is ", uptime)
 # Change to your own account information
-to = 'bowieengineering@gmail.com'
-gmail_user = 'bowieengineering@gmail.com'
-gmail_password = 'engineeringatbowie'
+to = '*****************'
+gmail_user = '************'
+gmail_password = '**************'
 #smtpserver = smtplib.SMTP('smtp.gmail.com', 587) #prev 587, 465
 smtpserver = smtplib.SMTP_SSL('smtp.gmail.com', 465) #prev 587, 465
 smtpserver.ehlo()
